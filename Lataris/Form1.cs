@@ -29,6 +29,13 @@ namespace Lataris
                 tombolexecute1.Enabled = true;
                 tombolexecute2.Enabled = true;
                 tombolexecute3.Enabled = true;
+
+                /*
+                this.Hide();*/
+                Form2 tempForm = new Form2();
+                this.AddOwnedForm(tempForm);
+                tempForm.Show();
+                
             }
             catch (Exception ex)
             {
@@ -41,6 +48,7 @@ namespace Lataris
         {
             DBConnect.Insertdb(edit_query1.Text);
             MessageBox.Show("Insert data berhasil");
+     
         }
 
 

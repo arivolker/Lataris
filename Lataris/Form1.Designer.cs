@@ -49,6 +49,9 @@ namespace Lataris
             // 
             // tombolkonek
             // 
+            this.tombolkonek.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.tombolkonek.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.tombolkonek.ForeColor = System.Drawing.SystemColors.ControlText;
             this.tombolkonek.Location = new System.Drawing.Point(12, 12);
             this.tombolkonek.Name = "tombolkonek";
             this.tombolkonek.Size = new System.Drawing.Size(96, 29);
@@ -97,6 +100,7 @@ namespace Lataris
             // tombolexecute3
             // 
             this.tombolexecute3.Enabled = false;
+            this.tombolexecute3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.tombolexecute3.Location = new System.Drawing.Point(479, 65);
             this.tombolexecute3.Name = "tombolexecute3";
             this.tombolexecute3.Size = new System.Drawing.Size(75, 23);
@@ -131,7 +135,6 @@ namespace Lataris
             this.dataGrid1.CaptionBackColor = System.Drawing.Color.LightSteelBlue;
             this.dataGrid1.CaptionFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.dataGrid1.CaptionForeColor = System.Drawing.Color.MidnightBlue;
-            this.dataGrid1.CaptionText = "uiuui";
             this.dataGrid1.CaptionVisible = false;
             this.dataGrid1.DataMember = "";
             this.dataGrid1.FlatMode = true;
@@ -155,6 +158,7 @@ namespace Lataris
             // tombolexecute2
             // 
             this.tombolexecute2.Enabled = false;
+            this.tombolexecute2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.tombolexecute2.Location = new System.Drawing.Point(479, 95);
             this.tombolexecute2.Name = "tombolexecute2";
             this.tombolexecute2.Size = new System.Drawing.Size(75, 23);
@@ -183,6 +187,7 @@ namespace Lataris
             // tombolexecute1
             // 
             this.tombolexecute1.Enabled = false;
+            this.tombolexecute1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.tombolexecute1.Location = new System.Drawing.Point(479, 36);
             this.tombolexecute1.Name = "tombolexecute1";
             this.tombolexecute1.Size = new System.Drawing.Size(75, 23);
@@ -212,6 +217,7 @@ namespace Lataris
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(589, 313);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.labelstatus);

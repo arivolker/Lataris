@@ -94,8 +94,10 @@ namespace Lataris
         {
             if (openConnection())
             {
+                MySqlTransaction transaction = koneksi.BeginTransaction();
                 MySqlCommand cmd = new MySqlCommand(querysql, koneksi);
                 cmd.ExecuteNonQuery();
+                transaction.Commit();
                 closeConnection();
             }
         }
@@ -105,8 +107,10 @@ namespace Lataris
         {
             if (openConnection())
             {
+                MySqlTransaction transaction = koneksi.BeginTransaction();
                 MySqlCommand cmd = new MySqlCommand(querysql, koneksi);
                 cmd.ExecuteNonQuery();
+                transaction.Commit();
                 closeConnection();
             }
         }
@@ -115,9 +119,10 @@ namespace Lataris
         {
             if (openConnection())
             {
+                MySqlTransaction transaction = koneksi.BeginTransaction();
                 MySqlCommand cmd = new MySqlCommand(querysql, koneksi);
                 cmd.ExecuteNonQuery();
-
+                transaction.Commit();
                 closeConnection();
             }
         }
