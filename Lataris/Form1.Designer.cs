@@ -82,9 +82,9 @@ namespace Lataris
             this.groupBox1.Controls.Add(this.tombolexecute1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.edit_query1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 64);
+            this.groupBox1.Location = new System.Drawing.Point(11, 188);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(566, 237);
+            this.groupBox1.Size = new System.Drawing.Size(566, 223);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             // 
@@ -217,8 +217,8 @@ namespace Lataris
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
-            this.ClientSize = new System.Drawing.Size(589, 313);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(589, 414);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.labelstatus);
             this.Controls.Add(this.tombolkonek);

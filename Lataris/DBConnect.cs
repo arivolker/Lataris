@@ -19,7 +19,7 @@ namespace Lataris
         {
             string connectionString;
             string server = "localhost";
-            string database = "db_login";
+            string database = "aris3";
             string user = "root";
             string password = "";
 
